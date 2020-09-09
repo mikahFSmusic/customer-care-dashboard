@@ -1,6 +1,6 @@
 appnope==0.1.0
 asgiref==3.2.10
-astroid==2.4.2
+astroid==1.6.6
 attrs==20.2.0
 backcall==0.2.0
 CacheControl==0.12.6
@@ -53,7 +53,7 @@ pyenchant==3.1.1
 pyglet==1.5.7
 Pygments==2.6.1
 pylev==1.3.0
-pylint==2.5.3
+pylint==1.9.4
 PyOpenGL==3.1.5
 PyOpenGL-accelerate==3.1.5
 pyparsing==2.4.7
