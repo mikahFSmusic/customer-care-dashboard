@@ -12,9 +12,9 @@ class App extends React.Component<{}, {body: JSX.Element}> {
     this.select_body = this.select_body.bind(this);
   }
 
-  case_form = (<iframe title="airtable-form" src="https://airtable.com/embed/shrYK4SGkD4B1a96g?backgroundColor=cyan" ></iframe>)
+  case_form = <iframe src="https://airtable.com/embed/shrn8e1VtiYXunhX7?backgroundColor=cyan&viewControls=on"></iframe>
 
-  customer_interaction = <p>Customer Interaction</p>
+  customer_interaction = <iframe src="https://maisonette.kustomerapp.com/app/search/5f04f039a7eaba0019035277"></iframe>
 
   vendor_interaction =  <p>Vendor Interaction</p>
 
