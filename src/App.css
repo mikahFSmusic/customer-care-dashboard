@@ -3,18 +3,19 @@
 }
 
 .App-logo {
-  height: 40vmin;
+  /* height: 40vmin; */
   pointer-events: none;
+  justify-self: center;
 }
 
-@media (prefers-reduced-motion: no-preference) {
+/* @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
-}
+} */
 
 .App-header {
-  background-color: #282c34;
+  background-color: white;
   min-height: 10vh;
   display: flex;
   flex-direction: column;
@@ -25,17 +26,17 @@
 }
 
 .Menu-bar {
-  padding: 5vh;
+  padding: 1vh;
 }
 
 .Menu-item {
-  padding: 5vh;
-  background-color: #c6c5fd
+  padding: 1vh;
+  color: #282c34;
 }
 
 .Menu-item:hover {
   border-block-color: white;
-  background-color: #5865da
+  background-color: #c6c5fd;
 }
 
 .App-link {

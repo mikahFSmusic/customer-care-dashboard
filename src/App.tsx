@@ -1,5 +1,5 @@
 import React from 'react';
-// import logo from './logo.svg';
+import logo from './Maisonette_Concierge.svg';
 import './App.css';
 // import { render } from '@testing-library/react';
 
@@ -38,7 +38,9 @@ class App extends React.Component<{}, {body: JSX.Element}> {
 
   render() {
     let menuBar = (
+
       <header className="App-header">
+          <img src={logo} className="App-logo" alt="logo" />
           <div className="Menu-bar">
             <a className="Menu-item" id="case-tracking" onClick={this.select_body} >Case Tracking</a>
             <a className="Menu-item" id="customer-interaction" onClick={this.select_body} >Customer Interaction</a>
@@ -46,7 +48,7 @@ class App extends React.Component<{}, {body: JSX.Element}> {
           </div>
           {/* <button onClick={case_form}>Open A Case</button>
           <button>Another Item</button> */}
-          {/* <img src={logo} className="App-logo" alt="logo" /> */}
+          {/*  */}
         </header>
     )
     let body = (
