@@ -53,7 +53,6 @@ class App extends React.Component<{}, {body: JSX.Element}> {
     )
     let body = (
       <body>
-        <h1>Body</h1>
         {this.state.body}
       </body>)
 
